@@ -1,0 +1,98 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #5052d0, #7b50c9);
+}
+.card {
+  width: 400px;
+  padding: 80px 50px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+}
+.card h3 {
+  color: #111;
+  margin-bottom: 50px;
+  border-left: 5px solid rgb(88, 54, 189);
+  padding-left: 10px;
+  line-height: 1em;
+}
+.inputbox {
+  margin-bottom: 50px;
+}
+.inputbox input {
+  position: absolute;
+  width: 300px;
+  background: transparent;
+}
+.inputbox input:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #513397;
+  outline: 0;
+  box-shadow: none;
+}
+.inputbox span {
+  position: relative;
+  top: 7px;
+  left: 1px;
+  padding-left: 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.inputbox input:focus ~ span {
+  transform: translateX(-10px) translateY(-32px);
+  font-size: 12px;
+}
+.inputbox input:valid ~ span {
+  transform: translateX(-10px) translateY(-32px);
+  font-size: 12px;
+}
+.btn {
+  background: linear-gradient(#6567d3, #8b62d8);
+}
+button i {
+  color: #fff;
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  background-color: #fff;
+  width: 400px;
+  padding: 80px 50px;
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.container p {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container h1 {
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.fa-circle-check {
+  color: #23ba41;
+  font-size: 50px;
+}
+.fa-circle-xmark {
+  color: #ba2a23;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.f-btn {
+  margin-top: 20px;
+  background-color: #c41d1d;
+  color: #fff;
+  background: linear-gradient(#6567d3, #8b62d8);
+  border: none;
+  border-radius: 5px;
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
